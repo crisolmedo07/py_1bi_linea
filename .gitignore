@@ -1,3 +1,4 @@
 .env
 data/measurements.txt
+data/measurements_summary.parquet
 __pycache__/

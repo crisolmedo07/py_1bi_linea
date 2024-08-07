@@ -2,7 +2,7 @@
 
 tiempo de lectura, procesado y agrupado en duckdb 
 
-![dashboard_ejemplo](pics\procesado_duckdb.png)
+![procesado_duckdb](pics\procesado_duckdb.png)
 
 
 Pesentacion de resultado en dashboard

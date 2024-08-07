@@ -10,6 +10,7 @@ python = "^3.12"
 tqdm = "^4.66.5"
 pool = "^0.1.2.dev0"
 cpu-count = "^1.0.0"
+duckdb = "^1.0.0"
 
 
 [build-system]

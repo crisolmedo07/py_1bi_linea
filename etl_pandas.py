@@ -4,8 +4,8 @@ from tqdm import tqdm # Import para observar la barra de progreso
 
 CONCURRENCY = cpu_count()
 
-total_lineas = 100_000 # Total de lineas conocido
-chunksize = 10_000 # Define el tamaño de chunk
+total_lineas = 1_000_000_000 # Total de lineas conocido
+chunksize = 100_000_000 # Define el tamaño de chunk
 path_txt = "data/measurements.txt" # path del archivo
 
 def process_chunk(chunk):

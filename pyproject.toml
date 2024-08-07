@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "py-1bi-linea"
+version = "0.1.0"
+description = ""
+authors = ["crisolmedo07 <crisolmedo07@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+tqdm = "^4.66.5"
+pool = "^0.1.2.dev0"
+cpu-count = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

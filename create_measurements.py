@@ -80,7 +80,7 @@ def estimate_file_size(weather_station_names, num_rows_to_create):
     total_file_size = num_rows_to_create * per_record_size
     human_file_size = convert_bytes(total_file_size)
 
-    return f"O tamanho estimado do arquivo é:  {human_file_size}.\nO tamanho final será provavelmente muito menor (metade)."
+    return f"El tamaño del archivo es:  {human_file_size}.\nEl tamaño final será probablemente mucho menor."
 
 
 def build_test_data(weather_station_names, num_rows_to_create):
@@ -114,9 +114,9 @@ def build_test_data(weather_station_names, num_rows_to_create):
     file_size = os.path.getsize("./data/measurements.txt")
     human_file_size = convert_bytes(file_size)
  
-    print("Arquivo escrito com sucesso data/measurements.txt")
-    print(f"Tamanho final:  {human_file_size}")
-    print(f"Tempo decorrido: {format_elapsed_time(elapsed_time)}")
+    print("Archivo escrito con sucesso... data/measurements.txt")
+    print(f"Tamaño final:  {human_file_size}")
+    print(f"Tiempo Recorrido: {format_elapsed_time(elapsed_time)}")
 
 
 def main():
@@ -128,7 +128,7 @@ def main():
     weather_station_names = build_weather_station_name_list()
     print(estimate_file_size(weather_station_names, num_rows_to_create))
     build_test_data(weather_station_names, num_rows_to_create)
-    print("Arquivo de teste finalizado.")
+    print("Archivo de teste finalizado.")
 
 
 if __name__ == "__main__":
